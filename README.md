@@ -1,31 +1,15 @@
-# Foobar
+# Code_Refactor
 
-Foobar is a Python library for dealing with word pluralization.
+Horiseon's website needed a refactor to update the html to reflect current semantic language. 
 
 ![horiseon-website-screenshot](Horiseon-website-screenshot.png)
 
-## Installation
+## Description
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+* The website was written in non semantic code.
+* Reclassified the code to reflect proper semantic language. 
+* Simplified the CSS code to make it easier to read.
 
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
